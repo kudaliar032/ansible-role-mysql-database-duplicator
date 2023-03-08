@@ -1,0 +1,3 @@
+---
+# vars file for mysql-database-duplicator
+dump_target: "/tmp/{{ src_db_name }}_{{ dest_db_name }}.sql"
